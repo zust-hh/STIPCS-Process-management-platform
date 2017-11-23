@@ -1,0 +1,747 @@
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #fbf6f2;
+}
+.header .col-md-5 {
+    height: 50px;
+    padding: 0;
+}
+
+.header  .col-md-2 {
+    padding: 0;
+    height: 50px;
+}
+.lore a {
+    font-family: 宋体;
+    display: block;
+}
+.lore a:hover {
+    border-radius: 4px;
+    background-color: white;
+}
+.login {
+    line-height: 30px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 3%;
+}
+
+.register {
+    line-height: 30px;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    width: 38px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 10px;
+}
+.registerpop {
+    border-radius: 5px;
+    margi+n: 5% auto;
+    width: 450px;
+    height: 470px;
+    background-color: white;
+}
+.loginpop {
+    border-radius: 5px;
+    margin: 5% auto;
+    width: 450px;
+    height: 370px;
+    background-color: white;
+}
+.modal-header h4 {
+    font-size: 24px;
+    color: black;
+    font-weight: 700px;
+    font-family: "微软雅黑 Light";
+}
+.modal-body input {
+    margin:0 auto;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid black;
+    color: black;
+    font-family: "微软雅黑 Light";
+}
+.error {
+    height: 25px;
+    font-size: 12px;
+    color: red;
+}
+.pullone-li {
+    width: 70px;
+    line-height: 50px;
+    float: left;
+}
+.pullone .popover {
+    max-width: 300px;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+}
+.pullone .popover-title {
+    border-radius: 0;
+    text-align:center;
+    font-size:14px;
+    background: url(../images/64.jpg);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.pullone .popover-content {
+    padding: 0;
+}
+.pulltwo {
+    width: 300px;
+    float:right;
+    text-align: right;
+}
+.pullone-li {
+    float: left;
+}
+.pullone-li a {
+    color: black;
+}
+.pullone-li a:hover {
+    color: #05a6b3;
+}
+#popOverBox {
+    width: 300px;
+    height: 150px;
+}
+#popOverBox1 {
+    line-height: 35px;
+    font-family: "微软雅黑 Light";
+    width: 200px;
+    height: 305px;
+}
+#popsx {
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "微软雅黑 Light";
+    font-weight: bolder;
+}
+.sxbody {
+    padding: 10px 10px 10px 0;
+    width: 200px;
+    height: 260px;
+}
+.onesx {
+    cursor: pointer;
+    line-height: 50px;
+    width: 200px;
+    height: 70px;
+}
+.onesx:hover {
+    background-color: gainsboro;
+}
+.onesx-l {
+    padding-left: 10px;
+    width: 60px;
+    height: 50px;
+    float: left;
+}
+.onesx-l-t {
+    font-weight: bolder;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+}
+.onesx-l-b {
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+}
+.onesx-l-b span {
+    color: grey;
+    margin-top: -14px;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 60px;
+    height: 20px;
+}
+.onesx-r {
+    padding-top: 8px;
+    width: 130px;
+    height: 70px;
+    float: left;
+}
+.onesx-r p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#moresx {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+#moresx:hover {
+    color: red;
+    background-color: gainsboro;
+}
+.sxfoot {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    padding: 0 10px;
+}
+#previous {
+    float: left;
+}
+#y-num {
+    margin-left: 60px;
+    float: left;
+}
+#nexty {
+    float: right;
+}
+#popOverBox-t {
+    padding-left: 20px;
+    color: rgb(120,153,172);
+    width: 300px;
+    height: 110px;
+    border-bottom: 1px solid rgb(237,241,242);
+    font-family: "微软雅黑 Light";
+}
+#popOverBox-t a {
+    color: grey;
+    width: 250px;
+    text-align: left;
+    margin-left: 20px;
+}
+#popOverBox-b a{
+    color: grey;
+    margin-left: 240px;
+    line-height: 30px;
+    font-family: "微软雅黑 Light";
+}
+#popOverBox-b a:hover {
+    color: #bebebe;
+}
+#popOverBox-t a:hover {
+    color: #bebebe;
+}
+.popover-title {
+    text-decoration: none;
+}
+.poptitle {
+    height: 100px;width: 300px;
+}
+.poptitle img {
+    float: left;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+.poptitle-admin {
+    display:block;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    padding-top: 43px;
+    font-family: "微软雅黑 Light";
+    font-weight: 600px;
+    margin-left: 30px;
+}
+.poptitle-admin:hover {
+    color: red;
+}
+.nav{
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+.nav ul {
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+.nav ul li {
+    position: relative;
+    font-family: "微软雅黑 Light";
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-property: color;
+    transition-duration: 0.5s;
+    border-left: 1px solid #1599a3;
+    border-right: 1px solid #21b1bc;
+    display: inline;
+    float: left;
+    width: 20%;
+    height: 125px;
+    background-color: #05a6b3;
+}
+.nav ul li:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0bc2d1;
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.nav ul li:hover:before {
+    transform: scaleY(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.nav ul li a {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    line-height: 125px;
+}
+.carousel .item
+{
+    height: 500px;
+}
+.carousel .item img {
+    width: 100%;
+}
+.carousel-caption {
+    z-index: 10;
+}
+.focusBox {
+    font-size: 28px;
+}
+.fourblock {
+    font-family: "微软雅黑 Light";
+    color: white;
+}
+.fourblock .one {
+    padding: 20px;
+    height: 170px;
+    background-color: #00e0f2;
+}
+.fourblock .two {
+    padding: 20px;
+    height: 170px;
+    background-color: #02cddd;
+}
+.fourblock .three {
+    padding: 20px;
+    height: 170px;
+    background-color: #05b7c5;
+}
+.fourblock .four {
+    padding: 20px;
+    height: 170px;
+    background-color: #05a6b3;
+}
+.learnbydo {
+    font-family: "微软雅黑 Light";
+    padding: 80px 0;
+}
+.learnbydo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ef6286;
+}
+.learnbydo h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #222222;
+}
+.learnbydo p {
+    line-height: 22px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b8b6b6;
+}
+.learnbydo a {
+    border: 2px solid #05a6b3;
+    font-size: 15px;
+    font-weight: 400;
+    color: #05a6b3;
+    padding: 5px 18px;
+}
+.leftandright {
+    line-height: 20px;
+    margin-top: 6%;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.leftandright:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2098d1;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.leftandright:hover, .leftandright:focus, .leftandright:active {
+    color: white;
+}
+.leftandright:hover:before, .leftandright:focus:before, .leftandright:active:before {
+    transform: scaleX(1);
+}
+
+.learnbydo1 {
+    height: 210px;
+}
+.learnbydo2 {
+    height: 210px;
+}
+.learnbydo3 {
+    height: 210px;
+}
+.team {
+    padding: 50px 0;
+    background-color: #ebebeb;
+}
+.team .col-md-3 {
+    height: 320px;
+ }
+.team .col-md-3 img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.team h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "微软雅黑 Light";
+}
+.teamend {
+    display: block;
+    color: black;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.team p {
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #696969;
+}
+.thumbnail {
+    padding: 50px 0;
+    height: 750px;
+}
+.thumbnail h2{
+    color: rgb(22, 117, 193);
+    font: 24px/55px 黑体;
+    text-align: center;
+}
+.thumbnail p {
+    color: rgb(117, 117, 117);
+    margin: 0 auto 33px;
+    font: 16px/18px STHeitiSC-Light, 黑体;
+    text-align: center;
+}
+.tab-pane img {
+    margin-left: 130px;
+    width: 900px;
+    height: 445px;
+}
+.tab-mnu {
+    margin-left: 500px;
+}
+.tab-mnu input{
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+.welcome {
+    background: url(../images/welcome.jpg);
+    background-size: 100% 100%;
+    height: 375px;
+}
+.welcome_t {
+    width: 600px;
+    margin: 0 auto;
+}
+.welcome_t h1 {
+    font-family: "微软雅黑 Light";
+    font-size: 50px;
+    padding-top: 90px;
+}
+.welcome_t input {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 32%;
+    font-size: 20px;
+    background-color: #e46962;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.welcome_t input:hover {
+    background-color: #fd7f5e;
+}
+.welcome_t a {
+    display: block;
+    height: 30px;
+}
+.footer {
+    padding: 50px 0;
+    height: 300px;
+    background-color: #222222;
+}
+.footer h2 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/*dsadasdsadsa*/
+.prilet-mask {
+    z-index: 9998;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    filter:alpha(opacity=40);
+    display:none
+}
+.prilet-popover {
+    z-index:9999;
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:1200px;
+    height:600px;
+    margin:-300px 0 0 -600px;
+    border:solid 1px #666;
+    background-color:#fff;
+    display:none;
+    font-family: "微软雅黑 Light";
+}
+.prilet-poptit {
+    border-bottom:1px solid #ddd;
+    padding:12px;
+    position: relative;
+}
+.prilet-popbod {
+    color:#444;
+    height: 556px;
+}
+.prilet-poptit .close {
+    float:right;
+    color:#999;
+    padding:5px;
+    margin:-2px -5px -5px;
+    font:bold 14px/14px simsun;
+    text-shadow:0 1px 0 #ddd
+}
+.prilet-poptit .close:hover {
+    color:#444;
+}
+.let-bod-l {
+    overflow: hidden;
+    padding-top: 10px;
+    max-width: 300px;
+    height: 556px;
+    float: left;
+    background-color: #dfe3e6;
+}
+.let-bod-ll {
+    width: 320px;
+    height: 500px;
+    overflow: auto;
+}
+.one-user {
+    width: 300px;
+    height: 80px;
+}
+.one-user:hover {
+    background-color: #f3f5f7;
+}
+.one-user-bod {
+    width: 270px;
+    height: 79px;
+    margin: 0 15px 0 15px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.one-user-l {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.one-user-l img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+.one-user-r {
+    width: 230px;
+    height: 79px;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+.uName {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.theLastsx {
+    width: 200px;
+    font-size: 14px;
+    color: #93999f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+}
+.let-bod-r {
+    width: 898px;
+    height: 556px;
+    float: left;
+    padding: 20px 30px;
+    background-color: #f3f5f7;
+    overflow: hidden;
+}
+.let-bod-r-t {
+    width: 898px;
+    height: 450px;
+    max-height: 450px;
+    overflow: auto;
+}
+.otherP,.myP {
+    padding: 10px 0;
+    float: left;
+    width: 838px;
+}
+.otherP-l,.otherP-c,.otherP-r {
+    float: left;
+}
+.otherP-l img,.myP-r img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.myP-l,.myP-c,.myP-r {
+    float: right;
+}
+.otherP-c {
+    line-height: 20px;
+    max-width: 600px;
+    margin-left: 10px;
+}
+.myP-c {
+    line-height: 20px;
+    max-width: 600px;
+    margin-right: 10px;
+}
+.o-xingxi {
+    margin-top: 3px;
+    background-color: #cdd7e2;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.m-xingxi {
+    margin-top: 3px;
+    background-color: #78cdf8;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.sxtime {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #919496;
+}
+.otherP-r {
+    margin-left: 10px;
+}
+.myP-l {
+    margin-right: 10px;
+}
+.let-bod-r-b {
+    width: 838px;
+    height: 105px;
+    border-top: 1px solid #e3ddd7;
+}
+.let-bod-r-b input {
+    padding: 0 10px;
+    width: 670px;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    float: left;
+}
+.let-bod-r-b a {
+    border-radius: 3px;
+    background-color: #78cdf8;
+    padding: 16px 45px;
+    margin: 3px 0 0 70px;
+    border: none;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    text-align: center;
+}
+.let-bod-r-b a:hover {
+    background-color: #008cc8;
+}

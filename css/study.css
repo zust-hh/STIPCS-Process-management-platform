@@ -1,0 +1,169 @@
+
+
+ a {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #DDAD02;
+}
+a:hover {
+    color: #232a2f;
+    text-decoration: none;
+}
+
+
+/*附加导航栏*/
+.first
+{
+  margin: 0;
+  background-color: white;
+  position:fixed;
+  font-family: "微软雅黑";
+
+}
+
+.first .collapse li 
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:white; 
+  margin-left: ;
+  text-indent: 30px;
+}
+ .navbar {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+   
+}
+.navbar-nav,.navbar-nav li {
+    float: none;
+    color: black;
+   
+}
+.navbar-nav>li>a {
+    color:black;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+  .navbar-nav>li>a:hover {
+    background: #faf8ed;
+    opacity: 0.7;
+    width: 100%;
+}
+  .navbar-nav>.active>a,  .navbar-nav>.active>a:hover,  .navbar-nav>.active>a:focus {
+    background: transparent;
+    color: #9B59B6;
+    width: 100%;
+}
+
+/*中间*/
+.middle
+{
+  opacity: 0.8;
+
+}
+.page-header
+{
+  font-family: "微软雅黑";
+  font-size: 45px;
+  color: #ef6286;
+}
+.item-intro
+{
+    padding-top: 50px;   
+}
+.page-header small
+{
+  color: #ef6286
+}
+#intro1,#intro2,#intro3,#intro4,#intro5
+{
+  height: 600px;
+}
+
+.third
+{
+  margin: 0;
+  background-color: white;
+  height:100%;
+  font-family: "微软雅黑";
+}
+
+.third .collapse li 
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:white; 
+  margin-left: -15px;
+  text-indent: 30px;
+}
+.col-md-4 h2
+{
+  font-family: "微软雅黑";
+  text-align: center;
+}
+.col-md-4 p 
+{
+  font-family: "微软雅黑";
+  line-height: 25px;
+}
+
+
+
+/*第二次加的*/
+.navbar-nav1,.navbar-nav1 li
+ {
+    float: none;
+    width: 220px;
+    text-align: left;
+    padding-left: 75px;
+   
+}
+.navbar-nav1>li>a 
+{
+    color: #232a2f;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+  .navbar-nav1>li>a:hover 
+  {
+    background: rgba(38, 41, 46, .2);
+  }
+  .navbar-nav1>.active>a,  .navbar-nav1>.active>a:hover,  .navbar-nav1>.active>a:focus 
+  {
+    background: transparent;
+    color: #9B59B6;
+}
+
+.pull2
+{
+  width: 250px;
+  position: fixed;
+  padding-left: 50px;
+  margin-top: 250px;
+}
+.foot
+{
+  background-color: black !important;
+}
+
+
+
+
+
+
+
+

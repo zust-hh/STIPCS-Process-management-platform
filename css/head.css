@@ -1,0 +1,379 @@
+.container-fluid
+{
+  background-color: #05a6b3;
+  font-family: "微软雅黑";
+}
+.logo img
+{
+  width: 110px;
+  height: 30px;
+  margin-top: 10px;
+}
+.logo
+{
+  float: left;
+}
+.menu
+{
+  float: left;
+}
+.menu li{
+  float: left;
+  list-style: none;
+  width: 130px;
+  line-height: 50px;
+  height: 50px;
+  margin: 0 4px;
+  /*-webkit-transform: skew(20deg);*/
+  /*background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#58aafe),color-stop(0.5,#3297fe),to(#3297fe));*/
+}
+.menu li a {
+  display: block;
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  width: 130px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.menu li a:hover
+{
+  /*background-color:#3297fe;*/
+  color: black;
+  width: 130px;
+  height: 40px;
+  line-height: 50px;
+  opacity: 0.7;
+}
+
+
+.pull1
+{
+  float: left;
+}
+.pull1 li{
+  float: left;
+  list-style: none;
+  width: 130px;
+  line-height: 50px;
+  height: 50px;
+  margin: 0 4px;
+}
+.pull1 li a 
+{
+  display: block;
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.pull1 li a:hover
+{
+  /*background-color:#3297fe;*/
+  color: black;
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  opacity: 0.7;
+}
+.menu li a:hover, .menu li a:focus, .menu li a:active {
+    color: black;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.7;
+}
+/*变化后的*/
+.pullone li 
+{
+  width: 50px;
+  margin-left: 10px;
+}
+.pullone li a
+{
+  width: 50px;
+  margin-left: 10px;
+}
+.pullone li a:hover, .pullone li a:focus, .pullone li a:active {
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.7;
+}
+.pullone {
+  margin-right: 100px;
+}
+.pullone .popover {
+  max-width: 300px;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+.pullone .popover-title {
+  padding: 0;
+}
+.pullone .popover-content {
+  padding: 0;
+}
+#popOverBox {
+  width: 300px;
+  height: 150px;
+}
+#popOverBox-t {
+  width: 300px;
+  height: 110px;
+  border-bottom: 1px solid rgb(237,241,242);
+}
+#popOverBox-t a {
+	display: block;
+	width: 95px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/*----------------登录弹窗 --------*/
+.theme-login-mask {
+  z-index: 9998;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#000;
+  opacity:0.4;
+  filter:alpha(opacity=40);
+  display:none
+}
+.theme-login {
+  opacity: 1;
+  border-radius: 5px;
+  width: 450px;
+  height: 370px;
+  background-color: white;
+  z-index:9999;
+  position:fixed;
+  top:35%;
+  left:50%;
+  margin:-180px 0 0 -225px;
+  border:solid 2px #666;
+  display:none;
+}
+.theme-loginpoptit {
+  border-bottom:1px solid #ddd;
+  padding:12px;
+  position: relative;
+}
+.theme-loginpopbod {
+  margin-left: 5px;
+  margin-top: 3%;
+  color:#444;
+  height: 148px;
+}
+.theme-loginpoptit .loginclose {
+  float:right;
+  color: #666666;
+  padding:5px;
+  margin:-2px -5px -5px;
+  font:bold 14px/14px simsun;
+  text-shadow:0 1px 0 #ddd
+}
+.theme-loginpoptit .loginclose:hover {
+  color:#444;
+}
+.theme-loginpoptit h3 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  font-family: "微软雅黑 Light";
+}
+.theme-loginpopbod input {
+  margin:0 auto;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid black;
+  color: black;
+  font-family: "微软雅黑 Light";
+}
+.authcode input {
+  margin:0 auto;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid black;
+  color: black;
+  font-family: "微软雅黑 Light";
+}
+.error {
+  text-align: center;
+  height: 25px;
+  font-size: 12px;
+  color: red;
+}
+/*------------注册弹窗----------*/
+.theme-register-mask {
+  z-index: 9998;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#000;
+  opacity:0.4;
+  filter:alpha(opacity=40);
+  display:none
+}
+.theme-register {
+  z-index:9999;
+  position:fixed;
+  top:35%;
+  left:50%;
+  width: 450px;
+  height: 470px;
+  background-color: white;
+  margin:-180px 0 0 -225px;
+  border-radius:5px;
+  border:solid 2px #666;
+  display:none;
+}
+.theme-registerpoptit {
+  border-bottom:1px solid #ddd;
+  padding:12px;
+  position: relative;
+}
+.theme-registerpopbod {
+  margin-top: 3%;
+  color:#444;
+}
+.theme-registerpoptit .registerclose {
+  float:right;
+  color: #666666;
+  padding:5px;
+  margin:-2px -5px -5px;
+  font:bold 14px/14px simsun;
+  text-shadow:0 1px 0 #ddd
+}
+.theme-registerpoptit .registerclose:hover {
+  color:#444;
+}
+.theme-registerpoptit h3 {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  font-family: "微软雅黑 Light";
+}
+.theme-registerpopbod input {
+  margin:0 auto;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid black;
+  color: black;
+  font-family: "微软雅黑 Light";
+}
+
+#popOverBox1 {
+    line-height: 35px;
+    font-family: "微软雅黑 Light";
+    width: 240px;
+    height: 305px;
+}
+#popsx {
+	color: cornflowerblue;
+		padding-left: 10px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "微软雅黑 Light";
+    font-weight: bolder;
+}
+.sxbody {
+    padding: 10px 10px 10px 0;
+    width: 240px;
+    height: 260px;
+}
+.onesx {
+    cursor: pointer;
+    line-height: 50px;
+    width: 240px;
+    height: 70px;
+}
+.onesx:hover {
+    background-color: gainsboro;
+}
+.onesx-l {
+    padding-left: 10px;
+    width: 60px;
+    height: 50px;
+    float: left;
+}
+.onesx-l-t {
+    font-weight: bolder;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+}
+.onesx-l-b {
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;
+}
+.onesx-l-b span {
+    color: grey;
+    margin-top: -14px;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 60px;
+    height: 20px;
+}
+.onesx-r {
+    padding-top: 8px;
+    width: 160px;
+    height: 70px;
+    float: left;
+}
+.onesx-r p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#moresx {
+    cursor: pointer;
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+#moresx:hover {
+    color: red;
+    background-color: gainsboro;
+}
+.sxfoot {
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    padding: 0 10px;
+}
+#previous {
+	color: gray;
+	margin-left: -20px;
+    float: left;
+}
+#y-num {
+    margin-left: 65px;
+    float: left;
+}
+#nexty {
+	margin-right: -20px;
+	color: gray;
+    float: right;
+}

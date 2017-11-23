@@ -1,0 +1,615 @@
+
+.userCenter-top {
+    background-image: url(../images/hideback.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+}
+.user-pic {
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.user-pic img{
+    border: 4px solid #3D3A36;
+    height: 190px;
+    width: 190px;
+    border-radius: 95px;
+}
+.set-btn a,.set-btn a span{
+    color: #54585a;
+    font-size: 24px;
+    left: 0;
+    top:0;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+}
+.set-btn a span:hover {
+    color: #b5b9bc;
+}
+.user-info {
+    position: absolute;
+    height: 110px;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+#user-name {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "微软雅黑 Light";
+    color: white;
+}
+#info{
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    margin-top: 12px;
+    color: white;
+}
+.vocation {
+    margin-left: 10px;
+}
+.skill {
+    margin-left: 10px;
+}
+.user-desc {
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    margin-top: 30px;
+    color: white;
+    opacity: .5;
+}
+.user-friend {
+    top: 180px;
+    right: 200px;
+    position: absolute;
+    width: 200px;
+    height: 48px;
+}
+#follow {
+    top: 3px;
+    left:0;
+    position: absolute;
+    width: 90px;
+    height: 45px;
+}
+#follow a{
+    font-size: 24px;
+    left: 23px;
+    position: absolute;
+    display: block;
+    width: 44px;
+    height: 20px;
+    color: white;
+}
+#follow span {
+    left: 14px;
+    position: absolute;
+    top: 35px;
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+}
+#teamMate {
+    top: 3px;
+    left: 65px;
+    position: absolute;
+    width: 90px;
+    height: 45px;
+}
+#teamMate a{
+    font-size: 24px;
+    left: 23px;
+    position: absolute;
+    display: block;
+    width: 44px;
+    height: 20px;
+    color: white;
+}
+#teamMate span {
+    left: 14px;
+    position: absolute;
+    top: 35px;
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+}
+.userCenter-body {
+    position: relative;
+    width: 1200px;
+    margin: 20px auto 0 auto;
+}
+.body-leftMenu {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.body-leftMenu ul li {
+    height: 60px;
+    border-bottom: 1px solid #EDF1F2;
+    width: 160px;
+    margin: 0 auto;
+}
+.body-leftMenu ul li a {
+    font-weight: bold;
+    font-family: "微软雅黑 Light";
+    display: block;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #787d82;
+}
+.body-leftMenu ul li a:hover {
+    color: black;
+}
+.body-leftMenu ul li a i {
+    position: relative;
+    left: -25px;
+    top: 2px;
+    font-size: 14px;
+}
+.body-leftMenu ul li a b {
+    position: relative;
+    left: 45px;
+    font-size: 2px;
+}
+#user-on {
+    color: red;
+}
+.body-right {
+    width: 960px;
+    margin-left: 240px;
+    min-height: 589px;
+}
+.new-dynamic-head,.youJoinPro-head {
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #CFD5D8;
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    color: #787d82;
+}
+.youFriend-head {
+    height: 40px;
+    border-bottom: 1px solid #CFD5D8;
+}
+.youFriend-head li {
+    float: left;
+}
+.youFriend-head li a{
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    color: #787d82;
+    line-height: 16px;
+    padding-bottom: 24px;
+    margin-bottom: -1px;
+    margin-right: 60px;
+}
+a.active:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #F01400;
+}
+.uploadFile-dynamic {
+    height: 220px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CFD5D8;
+}
+.uploadFile-dynamic-head {
+    height: 40px;
+}
+.uploadFile-dynamic-head a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+.dynamic-user-name {
+    font-family: "微软雅黑 Light";
+    font-weight: 900;
+    position: absolute;
+    left: 60px;
+}
+.dynamic-time {
+    font-family: "微软雅黑 Light";
+    color: #93999f;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+.uploadFile-dynamic-body {
+    position: absolute;
+    width: 960px;
+    height: 135px;
+    font-family: "微软雅黑 Light";
+    background-color: #F2F4F6;
+    margin-top: 10px;
+}
+.uploadFile-dynamic-body img {
+    position: absolute;
+    width: 240px;
+    height: 135px;
+}
+.uploadFile-dynamic-body div {
+    position: absolute;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    left: 250px;
+    line-height: 22px;
+}
+.uploadFile-dynamic-body h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.uploadFile-dynamic-body span {
+    margin-right: 3px;
+    font-size: 16px;
+}
+.uploadFile-dynamic-body a {
+    color: red;
+}
+.uploadFile-dynamic-body i {
+    margin-right: 3px;
+}
+.onePro {
+    height: 180px;
+    position: relative;
+    padding: 30px 0;
+    border-bottom: 1px solid #edf1f0;
+}
+.onePro img {
+    width: 200px;
+    height: 113px;
+    float: left;
+}
+.onePro-body {
+    font-family: "微软雅黑 Light";
+    float: left;
+    padding-left: 30px;
+    height: 113px;
+    width: 65%;
+}
+.onePro-body h3 {
+    height: 28px;
+    font-size: 18px;
+    color: #15191c;
+    font-weight: bolder;
+}
+.proMember {
+    margin-top: 10px;
+}
+.proMember span {
+    display: inline-block;
+    padding: 2px 0;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #767a7b;
+}
+.proCompletion {
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+}
+.proCompletion span {
+    color: #f01400;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    font-weight: bolder;
+}
+.Reading {
+    position: absolute;
+    color: #f24b42;
+    background-color: #fff;
+    border: 1px solid #f01400;
+    transition: all 0.3s;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 88px;
+    font-size: 12px;
+    bottom: 30px;
+    right: 0;
+}
+.Reading:hover {
+    color: #fff;
+    background-color: #f01400;
+}
+.youFriend {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.oneFriend {
+    margin-right: 20px;
+    float: left;
+    width: 27.4%;
+    padding: 25px;
+    background-color: #f8fafc;
+    margin-bottom: 15px;
+    min-height: 114px;
+}
+.friend-img img{
+    float: left;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+.friend-body {
+    font-family: "微软雅黑 Light";
+    margin-left: 50px;
+}
+.friend-name {
+    font-weight: 700;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.friend-name a {
+    color: black;
+}
+.friendSpe {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-height: 18px;
+    color: #93999f;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+.friend-proNum {
+    color: #93999f;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+.privateLetter {
+    border: 1px solid #d0d6d9;
+    color: #787d82;
+    background-color: #fff;
+    margin-right: 14px;
+    display: inline-block;
+    padding: 6px 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 76px;
+    text-align: center;
+}
+.delFriend {
+    line-height: 12px;
+    font-size: 12px;
+    display: block;
+    float: right;
+    font-weight: 100;
+    border: 2px solid red;
+    padding: 3px 5px;
+}
+.delFriend:hover {
+    color: white;
+    background-color: red;
+}
+
+
+.prilet-mask {
+    z-index: 9998;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    filter:alpha(opacity=40);
+    display:none
+}
+.prilet-popover {
+    z-index:9999;
+    position:fixed;
+    top:50%;
+    left:50%;
+    width:1200px;
+    height:600px;
+    margin:-300px 0 0 -600px;
+    border:solid 1px #666;
+    background-color:#fff;
+    display:none;
+    font-family: "微软雅黑 Light";
+}
+.prilet-poptit {
+    border-bottom:1px solid #ddd;
+    padding:12px;
+    position: relative;
+}
+.prilet-popbod {
+    color:#444;
+    height: 556px;
+}
+.prilet-poptit .close {
+    float:right;
+    color:#999;
+    padding:5px;
+    margin:-2px -5px -5px;
+    font:bold 14px/14px simsun;
+    text-shadow:0 1px 0 #ddd
+}
+.prilet-poptit .close:hover {
+    color:#444;
+}
+.let-bod-l {
+    overflow: hidden;
+    padding-top: 10px;
+    max-width: 300px;
+    height: 556px;
+    float: left;
+    background-color: #dfe3e6;
+}
+.let-bod-ll {
+    width: 320px;
+    height: 500px;
+    overflow: auto;
+}
+.one-user {
+    width: 300px;
+    height: 80px;
+}
+.one-user:hover {
+    background-color: #f3f5f7;
+}
+.one-user-bod {
+    width: 270px;
+    height: 79px;
+    margin: 0 15px 0 15px;
+    border-bottom: 1px solid #b7bbbf;
+}
+.one-user-l {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.one-user-l img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+}
+.one-user-r {
+    width: 230px;
+    height: 79px;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+.uName {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.theLastsx {
+    width: 200px;
+    font-size: 14px;
+    color: #93999f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+}
+.let-bod-r {
+    width: 897px;
+    height: 556px;
+    float: left;
+    padding: 20px 30px;
+    background-color: #f3f5f7;
+    overflow: hidden;
+}
+.let-bod-r-t {
+    width: 897px;
+    height: 450px;
+    max-height: 450px;
+    overflow: auto;
+}
+.otherP,.myP {
+    padding: 10px 0;
+    float: left;
+    width: 838px;
+}
+.otherP-l,.otherP-c,.otherP-r {
+    float: left;
+}
+.otherP-l img,.myP-r img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.myP-l,.myP-c,.myP-r {
+    float: right;
+}
+.otherP-c {
+    line-height: 20px;
+    max-width: 600px;
+    margin-left: 10px;
+}
+.myP-c {
+    line-height: 20px;
+    max-width: 600px;
+    margin-right: 10px;
+}
+.o-xingxi {
+    margin-top: 3px;
+    background-color: #cdd7e2;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.m-xingxi {
+    margin-top: 3px;
+    background-color: #78cdf8;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.sxtime {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #919496;
+}
+.otherP-r {
+    margin-left: 10px;
+}
+.myP-l {
+    margin-right: 10px;
+}
+.let-bod-r-b {
+    width: 838px;
+    height: 105px;
+    border-top: 1px solid #e3ddd7;
+}
+.let-bod-r-b input {
+    padding: 0 10px;
+    width: 670px;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    float: left;
+}
+.let-bod-r-b a {
+    border-radius: 3px;
+    background-color: #78cdf8;
+    padding: 16px 45px;
+    margin: 3px 0 0 70px;
+    border: none;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    text-align: center;
+}
+.let-bod-r-b a:hover {
+    background-color: #008cc8;
+}

@@ -1,0 +1,38 @@
+.thumbnail{
+	display:block;
+	position:relative;
+}
+.thumbnail:hover span{
+	height:100%;
+}
+.thumbnail span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	overflow:hidden;
+	width:100%;
+	height:0px;
+	background:black;
+	color: white;
+	opacity: 1; 
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.box a
+{
+ color: black;
+}
+.foot{
+	position: relative;
+	height: 250px;
+	background: black;
+}
+@media screen and (max-width: 1600px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+   .first{
+   	display: none;
+   	position: relative;
+   }
+}

@@ -1,0 +1,136 @@
+﻿
+.navbar-fixed-top
+{
+  background-color: #8192d6;
+  font-family: "微软雅黑";
+  opacity: 0.88;
+}
+.logo img
+{
+  width: 110px;
+  height: 50px;
+}
+.logo
+{
+  float: left;
+}
+
+.menu li{
+  float: left;
+  list-style: none;
+  color: white;
+  width: 100px;
+  line-height: 50px;
+  height: 50px;
+  margin: 0 4px;
+  /*-webkit-transform: skew(20deg);*/
+  /*background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#58aafe),color-stop(0.5,#3297fe),to(#3297fe));*/
+}
+.menu li a {
+  display: block;
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.menu li a:hover
+{
+  /*background-color:#3297fe;*/
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  opacity: 0.7;
+}
+
+
+.pull1
+{
+  float: left;
+}
+.pull1 li{
+  float: left;
+  list-style: none;
+  width: 100px;
+  line-height: 50px;
+  height: 50px;
+  margin: 0 4px;
+}
+.pull1 li a 
+{
+  display: block;
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.pull1 li a:hover
+{
+  /*background-color:#3297fe;*/
+  color: black;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  opacity: 0.7;
+}
+.menu li a:hover, .menu li a:focus, .menu li a:active {
+    color: black;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.7;
+}
+/*变化后的*/
+.pullone li 
+{
+  width: 50px;
+  margin-left: 10px;
+}
+.pullone li a
+{
+  width: 50px;
+  margin-left: 10px;
+}
+.pullone li a:hover
+{
+  width: 50px;
+  margin-left: 10px;
+}
+.pullone li a:hover, .pullone li a:focus, .pullone li a:active {
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.7;
+}
+.pullone {
+  margin-right: 30px;
+}
+.pullone .popover {
+  max-width: 300px;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+.pullone .popover-title {
+  padding: 0;
+}
+.pullone .popover-content {
+  padding: 0;
+}
+#popOverBox {
+  width: 300px;
+  height: 150px;
+}
+#popOverBox-t {
+  width: 300px;
+  height: 110px;
+  border-bottom: 1px solid rgb(237,241,242);
+}

@@ -1,0 +1,359 @@
+.maincontent{
+    background-color: white;
+    font-family: Microsoft Yahei;
+}
+ a {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	}
+.bg-pic 
+{
+    height: 300px;
+    overflow: hidden;
+     background:  url(../../images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.block_title{
+	font-family: "微软雅黑";
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 120px;
+    font-size: 4em;
+    color: #ef6286; 
+}
+/*
+.block_title:before,
+.block_title:after {
+    content: "";
+    background: #ccc;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 42%;
+    vertical-align: middle;
+}*/
+.block_title:before {
+    right: 0.5em;
+    margin-left: -42%;
+}
+.block_title:after {
+    left: 0.5em;
+    margin-right: -42%;
+}
+.show
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  05 - Portfolio
+/////////////////////////////////////////////////////////////////////*/
+
+
+.port {
+	list-style: none;
+	text-align: left;
+	padding-bottom: 40px;
+}
+
+.port .item {
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+.port figure {
+	margin: 0;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+}
+
+.port figure img {
+	max-width: 100%;
+	height: 400px;
+	display: block;
+	position: relative;
+}
+
+.port figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #111;
+	color: #e66f69;
+}
+
+.port figcaption h3 {
+	margin: 50px 0px 50px 0px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: "微软雅黑"
+}
+
+.port figcaption span:before {
+	content: ' ';
+}
+
+.cs-style-3 figcaption span
+{
+	display: block;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+	text-align: center;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+	position: relative;
+	font-weight:500;
+}
+.port figcaption a {
+	text-align: center;
+	padding: 8px 15px;
+	display: inline-block;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+	color: #fff;
+}
+
+.cs-style-3 figure {
+	overflow: hidden;
+}
+
+.cs-style-3 figure img {
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+/*.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+*/
+.cs-style-3 figcaption {
+	height: 100%;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity:0.8;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.5s;
+}
+.cs-style-3 figure:hover figcaption>span{
+
+	transition: transform 0.8s;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.cs-style-3 figure:hover figcaption>a{
+	display: inline-block;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.cs-style-3 figcaption a {
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	bottom: 100px;
+	right: 190px;
+}
+.button{
+	background: transparent;
+	font-family: "微软雅黑";
+	border: 1px solid #fff;
+}
+.button:hover {
+    background: white;
+    color: #000;
+}
+.item-space {
+    margin-bottom: 50px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  07 - Contact
+/////////////////////////////////////////////////////////////////////*/
+
+.foot
+{
+	background: black;
+	height: 300px;
+	width: 100%;
+	bottom: 0;
+}
+
+
+
+/*
+
+@media all and (min-width: 1400px) {
+	.centered p {
+		font-size: 3em;
+	}
+	.bigheadline {
+		font-size: 15em;
+	}
+	.subheadline {
+		font-size: 5em;
+	}
+}
+
+@media all and (max-width: 1200px) and (min-width: 992px) {
+
+	.services {
+		max-width: 293px;
+		height: 213px;
+	}
+	.service-wrap i {
+	    font-size: 4em;
+	    margin-top: 28px;
+	}
+	.service-wrap h3 {
+	    font-size: 1.4em;
+	}
+	.service-wrap p {
+	    font-size: 11px;
+	    padding: 0px 35px;
+	}
+}
+
+@media all and (max-width: 991px) and (min-width: 768px) {
+
+	.services {
+		max-width: 293px;
+		height: 293px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.service-wrap p {
+		padding: 0px 40px;
+		font-size: 14px;
+	}
+	.pe-dj {
+		font-size: 6em;
+	}
+
+}
+
+@media all and (max-width: 991px) {
+
+	header{
+		background: url(../images/bg-small.jpg) no-repeat !important;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.services {
+		max-width: 293px;
+		height: 293px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.pe-dj {
+		font-size: 6em;
+	}
+	.service-wrap i {
+		margin-top: 50px;
+	}
+	.centered p {
+		font-size: 2em;
+	}
+	.bigheadline {
+		font-size: 6em;
+	}
+	.subheadline {
+		font-size: 2em;
+	}
+	.item-space figure {
+	    max-width: 360px;
+	    margin: 0 auto;
+	}
+	.moreDetails {
+		margin-bottom: 60px;
+	}
+	.copyright, .designed {
+		text-align: center;
+	}
+	.scrollDown {
+	    top: 70%;
+	    left: 46%;
+	}
+}
+@media all and (max-width: 380px) {
+
+
+	.logo-text {
+	    font-size: 2em;
+	}
+	.centered p {
+	    font-size: 1em;
+	}
+	.bigheadline {
+	    font-size: 4em;
+	}
+	.subheadline {
+	    font-family: 'Titillium Web',sans-serif;
+	    font-size: 1.5em;
+	    font-weight: 200;
+	    margin: 0;
+	}
+	.testimonila-block p {
+	    max-width: 90%;
+	}
+	.social-icons a {
+	    width: 30px;
+	    height: 30px;
+	}
+	
+}
+
+@media all and (max-width: 480px) {
+
+	.scrollDown {
+	    top: 70%;
+	    left: 44%;
+	}
+}
+*/

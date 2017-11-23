@@ -1,0 +1,102 @@
+/*右边*/
+.right
+{
+  
+}
+.upload
+{
+  width: 100%;
+  margin-top: 80px;
+}
+.hotpaper
+{
+  width: 100%;
+  height: ;
+  margin-top: 40px;
+}
+.newpaper
+{
+  width: 100%;
+  height: ;
+  margin-top: 20px;
+}
+.panel-body li
+{
+  width: 100%;
+  color: gray;
+  height: 25px;
+  line-height: 25px;
+}
+
+.panel-body li a
+{
+  color: white
+}
+.panel-body li:hover a
+{
+ color: black;
+}
+.panel-body ol
+{
+  list-style-type: decimal;
+}
+/*中间*/
+.paper
+{ 
+  margin-top: 100px;
+  font-family: "微软雅黑";
+
+  background-color:#e0e9f0 ;
+}
+table
+{
+  margin-top: 20px;
+}
+.block_title
+{
+  font-family: "微软雅黑";
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    font-size: 3.5em;
+    color: #ef6286;
+}
+
+.block_title:before,
+.block_title:after {
+    content: "";
+    background: #ccc;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 42%;
+    vertical-align: middle;
+}
+.block_title:before {
+    right: 0.5em;
+    margin-left: -42%;
+}
+.block_title:after {
+    left: 0.5em;
+    margin-right: -42%;
+}
+
+td{
+  height: 55px;
+}
+/*分页器*/
+.pagination-lg
+{
+  margin-left: 380px;
+  margin-top: 30px;
+}
+/*底部*/
+.foot
+{
+  background: black;
+  height: 300px;
+  position: absolute;
+  width: 100%;
+  
+}

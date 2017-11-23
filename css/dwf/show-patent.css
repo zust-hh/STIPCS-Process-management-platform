@@ -1,0 +1,331 @@
+.patent
+{
+  height: 1400px;
+  margin-top: 50px;
+}
+.middle
+{
+  height: 1000px;
+  
+}
+.aside
+{
+  height: 1000px;
+  background: red;
+ 
+  margin-left: 10px;
+}
+
+.pagination
+{
+  margin-left: 43%;
+}
+
+/*dibu */
+.foot
+{
+  background-color: black;
+  width: 100%;
+  height: 300px;
+ margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*复制*/
+body {
+    color: #85939b;
+    font-family: "微软雅黑";
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/*标题*/
+.block_title
+{
+  font-family: "微软雅黑";
+    font-weight: 300;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    font-size: 3.5em;
+    color: #ef6286;
+}
+
+.block_title:before,
+.block_title:after {
+    content: "";
+    background: #ccc;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    width: 42%;
+    vertical-align: middle;
+}
+.block_title:before {
+    right: 0.5em;
+    margin-left: -42%;
+}
+.block_title:after {
+    left: 0.5em;
+    margin-right: -42%;
+}
+/*
+    [ GENERAL ELEMENTS ]
+*/
+ a {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: #DDAD02;
+}
+a:hover {
+    color: #232a2f;
+    text-decoration: none;
+}
+#main-wrapper {
+    width: 100%;
+    position: relative;
+}
+code {
+    display: block;
+    padding: 4px 8px;
+    font-size: 90%;
+    color: #c7254e;
+    white-space: inherit;
+    background-color: #f9f2f4;
+    border-radius: 2px;
+}
+#container section {
+    padding: 60px;
+    background: #f7f8f9;
+    height: 1340px;
+}
+#container section.gray {
+    background: #eceff1;
+}
+.mg-bt-80 {
+    margin-bottom: 80px;
+}
+.mg-bt-60 {
+    margin-bottom: 60px;
+}
+.mg-bt-40 {
+    margin-bottom: 40px;
+}
+.to-top-btn {
+    background: #9B9F9F;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    line-height: 38px;
+    margin: 0 auto;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+/*
+    [ Preloader ]
+*/
+/* ====== Portfolio ====== */
+ .portfolio {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    height: 1000px;
+    background: #F4F4F4;
+}
+.portfolioContainer {
+    padding: 20px;
+}
+.portfolio .portfolio-item {
+    opacity: 0;
+    display: none;
+}
+.portfolio .portfolio-item img {
+    width: 100%;
+    height: 300px;
+}
+.portfolioFilter {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style: none;
+}
+.portfolioFilter li {
+    margin-right: 10px;
+    text-decoration:none;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+    border: 1px solid #28b1bc;
+    padding: 5px 10px;
+    line-height: 25px;
+}
+.portfolioFilter li.active {
+    background: #28b1bc none repeat scroll 0 0;
+    border: 1px solid #28b1bc;
+    color: #fff;
+}
+.portfolio-item {
+    position: relative;
+    height: 100%;
+    color: #ffffff;
+    line-height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.project-hover {
+    position: absolute;
+    width: 93%;
+    height: 100%;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.0);
+    background: rgba(0, 0, 0, 0.0);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    line-height: 20px;
+    text-transform: uppercase;
+    visibility: visible;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.portfolio-item a:hover > .project-hover {
+    color: rgba(255, 255, 255, 1);
+    cursor: crosshair;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.project-hover span {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.portfolio-item a:hover > .project-hover span {
+    padding: 15px 0;
+    font-family: "微软雅黑";
+}
+.project-hover b {
+    color: rgba(255, 255, 255, 0.0);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    padding-top: 0;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.project-hover span.plus {
+    font-size: 120px;
+    font-weight: 100;
+}
+.portfolio-item a:hover > .project-hover b {
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+ 
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive CSS */
+@media only screen and (max-width: 871px){ 
+    .post .post-title {
+        position: relative;
+        right: inherit;
+        top: inherit;
+        background: transparent;
+        padding:0;
+    }
+    .post .post-title h1 {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .media figure.pull-left {
+        float: none !important;
+        padding-bottom: 20px;
+    }
+    #container {
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 991px){    
+    .media figure.pull-left {
+        float: none !important;
+        padding-bottom: 20px;
+    }
+    .sidebar {
+        padding-left: 15px;
+    }
+    #container {
+        margin-left: 0;
+    }
+ 
+}
+
+

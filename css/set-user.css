@@ -1,0 +1,194 @@
+
+.set-user-body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.set-user-left {
+    width: 216px;
+    background-color: #f8fafc;
+    float: left;
+}
+.user-imgAndName {
+    padding: 32px 0 24px;
+}
+.user-img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 4px solid #d9dde1;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.user-img img {
+    width: 92px;
+    height: 92px;
+    border-radius: 46px;
+    background-size: 100% 100%;
+}
+.user-name {
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+}
+.user-name p {
+    line-height: 44px;
+    width: 160px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.set-user-left-b {
+    overflow: hidden;
+}
+.set-user-left-b h2 {
+    font-family: "微软雅黑 Light";
+    font-size: 16px;
+    line-height: 24px;
+    margin: 12px 24px;
+    font-weight: 700;
+}
+.line1 {
+    height: 1px;
+    background-color: #d9dde1;
+    margin: 0 24px;
+}
+.set-user-menu {
+    padding: 10px 0 125px;
+}
+.set-user-menu li a {
+    font-family: "微软雅黑 Light";
+    color: black;
+    display: block;
+    position: relative;
+    padding-left: 44px;
+    height: 48px;
+    line-height: 48px;
+    transition: background-color .3s ease;
+}
+.li-off:hover {
+    background-color: #f3f5f7;
+    color: #f01414;
+}
+.set-user-menu li a b {
+    margin-left: 60px;
+    font-size: 8px;
+    font-weight: 400;
+}
+.li-on {
+    background-color: #f01414;
+}
+.set-user-right {
+    height: 600px;
+    float: left;
+    margin-left: 48px;
+    width: 936px;
+    box-sizing: border-box;
+}
+.set-user-right-top {
+    font-family: "微软雅黑 Light";
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.line2 {
+    height: 1px;
+    background-color: #d0d6d9;
+    margin-top: 12px;
+}
+.set-user-right-top span {
+    color: #93999f;
+    font-weight: 400;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.set-user-right-top a:hover {
+    color: #008cc8;
+}
+.set-user-right-bottom {
+    margin: 24px auto 24px 40px;
+}
+.info-box {
+    font-family: "微软雅黑 Light";
+    margin-bottom: 12px;
+}
+.info-box label {
+    width: 120px;
+    line-height: 20px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f3f5f7;
+    color: #07111b;
+    font-weight: 700;
+    float: left;
+}
+.info-box input{
+    width: 708px;
+    margin-left: 8px;
+    line-height: 20px;
+    padding: 20px 0 20px 22px;
+    border-bottom: 1px solid #d9dde1;
+}
+.user-doc {
+    display: inline-block;
+    height: 60.8px;
+    width: 708px;
+    margin-left: 8px;
+    line-height: 20px;
+    padding: 20px 0 20px 22px;
+    border-bottom: 1px solid #d9dde1;
+}
+.user-doc a {
+    float: right;
+    color: #3DA8F5;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #3da8f5;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+    padding: 4px 8px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.user-doc a:hover {
+    color: white;
+    background-color: #3DA8F5;
+    text-decoration: none;
+}
+.open-info {
+    font-family: "微软雅黑 Light";
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+.set-submit {
+    visibility: hidden;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    float: right;
+    color: #3DA8F5;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #3da8f5;
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.set-submit:hover {
+    color: white;
+    background-color: #3DA8F5;
+    text-decoration: none;
+}

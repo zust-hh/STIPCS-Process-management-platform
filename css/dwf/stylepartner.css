@@ -1,0 +1,78 @@
+
+/* select */
+.select{
+	padding:5px 10px;
+	border-radius:4px;
+	width:100%;
+	margin:20px auto;
+	font-size:15px;
+}
+.select li{
+	list-style:none;
+	padding:10px 0 5px 100px;
+}
+.select .select-list{
+	/*border-bottom:#ffe0e9 1px dashed;*/
+}
+.select dl{
+	zoom:1;
+	position:relative;
+	line-height:35px;
+}
+.select dl:after{
+	content:" ";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+.select dt{
+	width:100px;
+	margin-bottom:3px;
+	position:absolute;
+	top:0;
+	left:-100px;
+	text-align:right;
+	color:#666;
+	height:35px;
+	line-height:35px;
+}
+.select dd{
+	float:left;
+	display:inline;
+	height: 35px;
+	line-height: 35px;
+	margin:0 0 5px 5px;
+}
+.select a{
+	display:inline-block;
+	white-space:nowrap;
+	height:35px;
+	line-height: 35px;
+	padding:0 10px;
+	text-decoration:none;
+	color:#039;
+	border-radius:2px;
+}
+.select a:hover{
+	color:#51b5e7;
+	background-color:#b9ffea;
+}
+.select .selected a{
+	color:#fff;
+	background-color:#7ab800;
+}
+.select-result dt{
+	font-weight:bold;
+}
+.select-no{
+	color:#999;
+}
+.select .select-result a{
+
+	padding-right:20px;
+	background:#7ab800 url("close.gif") right 15px no-repeat;
+}
+.select .select-result a:hover{
+	background-position:right -10px;
+}
